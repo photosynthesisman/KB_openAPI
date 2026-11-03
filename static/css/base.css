@@ -1,25 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "KBFGText";
-  src:
-    url("../../fonts/KBFGTextL.woff2") format("woff2"),
-    url("../../fonts/KBFGTextL.woff") format("woff"),
-    url("../../fonts/KBFGTextL.otf") format("opentype");
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "KBFGText";
-  src:
-    url("../../fonts/KBFGTextM.woff2") format("woff2"),
-    url("../../fonts/KBFGTextM.woff") format("woff"),
-    url("../../fonts/KBFGTextM.otf") format("opentype");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov.min.css");
 
 /* 초기화 */
 html {
@@ -30,10 +10,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-size: 15px;
-  font-family:
-    "KBFGText", MalgunGotic, "맑은 고딕", gulim, "굴림", dotum, "돋움",
-    sans-serif !important;
+  font-size: 1.6rem;
+  line-height: 1.44;
+  font-family: "Pretendard GOV", sans-serif !important;
   background: #fff;
   color: #444;
   -webkit-text-size-adjust: 100%;
@@ -64,7 +43,7 @@ h4,
 h5,
 h6 {
   font-size: 1em;
-  font-family: "KBFGText", MalgunGotic, "맑은 고딕", sans-serif;
+
   color: 000;
   letter-spacing: 0.25px;
 }
@@ -112,7 +91,7 @@ input,
 button {
   margin: 0;
   padding: 0;
-  font-family: "KBFGText", MalgunGotic, sans-serif;
+
   font-size: 1em;
 }
 input[type="submit"] {
@@ -133,15 +112,6 @@ img {
 }
 textarea,
 select {
-  font-family:
-    "KBFGText",
-    MalgunGotic,
-    gulim,
-    "굴림",
-    dotum,
-    "돋움",
-    sans-serif sans-serif;
-  font-size: 1em;
 }
 select {
   margin: 0;
