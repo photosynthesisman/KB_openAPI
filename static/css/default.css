@@ -199,12 +199,18 @@
   background-position: center 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 520px;
+
   position: relative;
+  &.sub {
+    width: 1280px;
+    height: 400px;
+    margin: 0 auto;
+    padding-left: 5.6rem;
+    border-radius: 2rem;
+  }
 }
 .main-visualBox {
   width: 1280px;
-  height: 520px;
   margin: 0 auto;
   position: relative;
 }
@@ -1149,18 +1155,37 @@
   mix-blend-mode: luminosity;
 }
 #footer .inner {
-  width: 1500px;
+  width: 128rem;
   margin: 0 auto;
   align-items: center;
-  padding: 50px 42px 60px;
+  padding: 8rem 0;
   display: flex;
+  color: #666;
+  .foot-sub-box {
+    font-size: 2rem;
+    .tit {
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+    p + p {
+      margin-top: 0.8rem;
+    }
+  }
+}
+#footer .inner .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 #footer .inner .menu ul {
   display: flex;
 }
 #footer .inner .menu ul li a {
-  color: #999;
-  font-size: 14px;
+  display: block;
+  width: 20.8rem;
+  color: #666;
+  font-weight: 700;
+  font-size: 2rem;
   line-height: 150%;
 }
 #footer .inner .menu ul li + li {
@@ -2434,6 +2459,9 @@
 .pc .error-list .jsgrid-nodata-row .empty {
   text-align: center;
 }
+.sub .main-service .main-item-inner .item-sub-tit {
+  margin-bottom: 2rem;
+}
 .main-service {
   max-width: 1280px;
   margin: 0 auto;
@@ -3070,5 +3098,163 @@
     overflow-x: auto;
     margin-right: -16px;
     scrollbar-width: none;
+  }
+}
+.pb-40 {
+  padding-bottom: 4rem !important;
+}
+.pb-56 {
+  padding-bottom: 5.6rem !important;
+}
+.pb-80 {
+  padding-bottom: 8rem !important;
+}
+.pt-80 {
+  padding-top: 8rem !important;
+}
+.pt-90 {
+  padding-top: 9rem !important;
+}
+.mt-20 {
+  margin-top: 2rem !important;
+}
+.mb-20 {
+  margin-bottom: 2rem !important;
+}
+.utill-wrap {
+  display: flex;
+  gap: 2.8rem;
+  .utill-box {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    &:nth-child(1) {
+      background-color: #cee8fb;
+    }
+    &:nth-child(2) {
+      background-color: #f5f7fa;
+    }
+    &:nth-child(3) {
+      background-color: #decefb;
+    }
+    &:nth-child(4) {
+      background-color: #fbebce;
+    }
+    .tit-box {
+      text-align: center;
+      p {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      span {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 1.4rem;
+        color: #000000b2;
+      }
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 12.8rem;
+      height: 12.8rem;
+    }
+  }
+}
+.custom-wrap {
+  display: flex;
+  gap: 2.8rem;
+  .custom-box {
+    position: relative;
+    height: 22.4rem;
+    padding: 3.2rem 4rem;
+    flex: 1;
+    background-color: #eae5ff;
+    border-radius: 2rem;
+    .tit-box span {
+      display: inline-block;
+      padding: 1.2rem 2rem;
+      background-color: #d1c8f8;
+      border-radius: 0.6rem;
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 1;
+      color: #5541aa;
+    }
+    .tit-box p {
+      margin-top: 2rem;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 4rem;
+      width: 16rem;
+    }
+    &:last-child {
+      background-color: #effff6;
+      border-radius: 1.2rem;
+
+      .tit-box span {
+        color: #48725b;
+        background-color: #caf0db;
+      }
+    }
+  }
+}
+.test-wrap {
+  display: flex;
+  gap: 2rem;
+  &.p20 {
+    .test-box {
+      padding: 2rem;
+    }
+  }
+  .test-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3.2rem;
+    background-color: #f7f7f7;
+    border-radius: 1.2rem;
+
+    img {
+      flex-shrink: 0;
+      width: 5.6rem;
+      height: 5.6rem;
+    }
+    .tit-box {
+      p {
+        margin: 8px 0;
+        font-weight: 600;
+        font-size: 20px;
+        color: #666;
+      }
+      span {
+        font-size: 16px;
+      }
+      .badge {
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        &.green {
+          background-color: #caf0db;
+          color: #48725b;
+        }
+        &.blue {
+          background-color: #c9d7ff;
+          color: #5b70ac;
+        }
+        &.purple {
+          background-color: #d1c8f8;
+          color: #5541aa;
+        }
+      }
+    }
   }
 }
