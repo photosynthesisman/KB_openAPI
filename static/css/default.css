@@ -199,7 +199,6 @@
   background-position: center 0px;
   background-repeat: no-repeat;
   background-size: cover;
-
   position: relative;
   &.sub {
     width: 1280px;
@@ -207,10 +206,14 @@
     margin: 0 auto;
     padding-left: 5.6rem;
     border-radius: 2rem;
+    .main-visualBox {
+      height: auto;
+    }
   }
 }
 .main-visualBox {
   width: 1280px;
+  height: 520px;
   margin: 0 auto;
   position: relative;
 }
@@ -296,8 +299,7 @@
 }
 
 .sub-visual {
-  background: #1c0555 url("../../images/common/sub-bg.png") center center
-    no-repeat;
+  background: #1c0555 url("../../images/common/sub-bg.png") center center no-repeat;
   background-size: 100%;
 }
 .sub-visual.ty1 {
@@ -535,14 +537,12 @@
   background-size: 286px;
 }
 .sub-service ul li.service2 {
-  background: #fff url("../../images/common/service02.png") right bottom
-    no-repeat;
+  background: #fff url("../../images/common/service02.png") right bottom no-repeat;
   background-size: 330px;
 }
 .sub-service ul li.service3 {
   position: relative;
-  background: url("../../images/common/service03-sub.png") calc(100% - 10px)
-    calc(100% - 30px) no-repeat;
+  background: url("../../images/common/service03-sub.png") calc(100% - 10px) calc(100% - 30px) no-repeat;
   background-size: 180px;
 }
 .sub-service ul li.service3::after {
@@ -553,8 +553,7 @@
   position: absolute;
   bottom: 10px;
   right: 5 0px;
-  background: url("../../images/common/service03-add.png") right bottom
-    no-repeat;
+  background: url("../../images/common/service03-add.png") right bottom no-repeat;
   background-size: 200px;
 }
 .sub-service ul li.service4 {
@@ -590,33 +589,27 @@
   padding: 28px 40px 28px 120px;
 }
 .sub-example ul li.ty1 {
-  background: #fcf9ff url("../../images/common/example01.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example01.svg") 42px center no-repeat;
   background-size: 42px;
 }
 .sub-example ul li.ty2 {
-  background: #fcf9ff url("../../images/common/example02.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example02.svg") 42px center no-repeat;
   background-size: 42px;
 }
 .sub-example ul li.ty3 {
-  background: #fcf9ff url("../../images/common/example03.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example03.svg") 42px center no-repeat;
   background-size: 42px;
 }
 .sub-example ul li.ty4 {
-  background: #fcf9ff url("../../images/common/example04.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example04.svg") 42px center no-repeat;
   background-size: 41px;
 }
 .sub-example ul li.ty5 {
-  background: #fcf9ff url("../../images/common/example05.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example05.svg") 42px center no-repeat;
   background-size: 42px;
 }
 .sub-example ul li.ty6 {
-  background: #fcf9ff url("../../images/common/example06.svg") 42px center
-    no-repeat;
+  background: #fcf9ff url("../../images/common/example06.svg") 42px center no-repeat;
   background-size: 41px;
 }
 .sub-example ul li .tit {
@@ -700,8 +693,7 @@
   display: block;
   width: 60px;
   height: 30px;
-  background: url("../../images/common/progressarrow.svg") center center
-    no-repeat;
+  background: url("../../images/common/progressarrow.svg") center center no-repeat;
   background-size: 12px;
 }
 .sub-inforprogress .progressbox li:last-child::after {
@@ -770,8 +762,7 @@
   font-size: 18px;
 }
 .sub-infor01 .btnbox button.mobile {
-  background: #ffbc38 url("../../images/common/progressarrow03.svg")
-    calc(100% - 30px) center no-repeat;
+  background: #ffbc38 url("../../images/common/progressarrow03.svg") calc(100% - 30px) center no-repeat;
   background-size: 9px;
 }
 .sub-infor02 {
@@ -816,28 +807,23 @@
   font-weight: 700;
 }
 .sub-infor02 ul li.ty1 {
-  background: #fcf9ff url("../../images/common/inforapi01.svg") center 30px
-    no-repeat;
+  background: #fcf9ff url("../../images/common/inforapi01.svg") center 30px no-repeat;
   background-size: 44px;
 }
 .sub-infor02 ul li.ty2 {
-  background: #fcf9ff url("../../images/common/inforapi02.svg") center 30px
-    no-repeat;
+  background: #fcf9ff url("../../images/common/inforapi02.svg") center 30px no-repeat;
   background-size: 42px;
 }
 .sub-infor02 ul li.ty3 {
-  background: #fcf9ff url("../../images/common/inforapi03.svg") center 30px
-    no-repeat;
+  background: #fcf9ff url("../../images/common/inforapi03.svg") center 30px no-repeat;
   background-size: 42px;
 }
 .sub-infor02 ul li.ty4 {
-  background: #fcf9ff url("../../images/common/inforapi04.svg") center 30px
-    no-repeat;
+  background: #fcf9ff url("../../images/common/inforapi04.svg") center 30px no-repeat;
   background-size: 42px;
 }
 .sub-infor02 ul li.ty5 {
-  background: #fcf9ff url("../../images/common/inforapi05.svg") center 30px
-    no-repeat;
+  background: #fcf9ff url("../../images/common/inforapi05.svg") center 30px no-repeat;
   background-size: 42px;
 }
 .sub-infor02 .bottom {
@@ -853,8 +839,7 @@
 .sub-infor02 .bottom button {
   margin-right: 10px;
   padding: 20px 14px 20px 0;
-  background: url("../../images/common/progressarrow.svg") right center
-    no-repeat;
+  background: url("../../images/common/progressarrow.svg") right center no-repeat;
   background-size: 6px;
 }
 
@@ -896,8 +881,7 @@
   display: block;
   width: 60px;
   height: 30px;
-  background: url("../../images/common/progressarrow.svg") center center
-    no-repeat;
+  background: url("../../images/common/progressarrow.svg") center center no-repeat;
   background-size: 12px;
 }
 .sub-guideprogress .progressbox li:last-child::after {
@@ -1121,16 +1105,14 @@
   right: 24px;
   width: 48px;
   height: 48px;
-  background: url("../../images/common/download-arrow.svg") center center
-    no-repeat;
+  background: url("../../images/common/download-arrow.svg") center center no-repeat;
   background-size: 18px;
   top: 50%;
   transform: translateY(-50%);
 }
 .sub-guidebox .downloadbox button.excel {
   border: 1px solid #48ae09;
-  background: url("../../images/common/download-excel.svg") 34px center
-    no-repeat;
+  background: url("../../images/common/download-excel.svg") 34px center no-repeat;
   background-size: 44px;
 }
 .sub-guidebox .downloadbox button.json {
@@ -1354,8 +1336,7 @@
   border-radius: 100px;
   position: absolute;
   display: none;
-  background: #f4f4f4 url("../../images/common/icon-close.svg") center center
-    no-repeat;
+  background: #f4f4f4 url("../../images/common/icon-close.svg") center center no-repeat;
   background-size: 8px;
 }
 .searchbox .search .searchbtn {
@@ -1528,8 +1509,7 @@
   font-weight: 500;
 }
 .b2c-download-btn {
-  background: #fff url("../../images/common/icon-documentdown.svg") 20px center
-    no-repeat;
+  background: #fff url("../../images/common/icon-documentdown.svg") 20px center no-repeat;
   background-size: 15px;
   border: 1px solid #ddd;
   color: #777777;
